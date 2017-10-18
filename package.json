@@ -3,12 +3,13 @@
   "version": "0.0.0",
   "authors": [
     "Carlos Serrano <carlos.pastor@mailonline.co.uk>"
+    "Anto Cabraja <cabraja.anto@gmail.com>"
   ],
   "description": "VAST plugin to use with video.js",
-  "main": "bin",
+  "main": "src",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MailOnline/videojs-vast-vpaid"
+    "url": "https://github.com/acabraja/videojs-vast-vpaid"
   },
   "keywords": [
     "vpaid",
@@ -25,7 +26,7 @@
     "prepare-hooks": "chmod u+x scripts/*",
     "setup-hooks": "./scripts/setup-hooks",
     "preinstall": "npm run prepare-hooks -s && npm run setup-hooks -s",
-    "postinstall": "bower install"
+    //"postinstall": "bower install"
   },
   "author": [
     "Carlos Serrano <carlos.pastor@mailonline.co.uk>"
